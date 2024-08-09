@@ -1,0 +1,25 @@
+Primary Colors:
+
+Navy Blue: #015BA1 (deep, trustworthy)
+Dark Red: #9B0233 (bold, authoritative)
+Secondary Colors:
+
+Light Blue: #6AB1D6 (fresh, modern)
+Orange: #FB8F02 (energetic, inviting)
+Accent Colors:
+
+Gold: #DAA520 (prestigious, high-quality)
+Green: #3CB371 (growth, harmony)
+Neutral Colors:
+
+White: #FFFFFF (clean, minimalistic)
+Light Gray: #F0F0F0 (soft background)
+Dark Gray: #333333 (text, contrasts well)
+
+
+Example Usage
+Header and Navigation Bar: Navy Blue with White text.
+Buttons and Call-to-Actions: Orange for primary actions, Light Blue for secondary actions.
+Links and Hover Effects: Dark Red for links with Gold or Green hover effects.
+Backgrounds and Sections: Light Gray backgrounds for sections, White for main content areas.
+Text and Typography: Dark Gray for body text, with Navy Blue or Dark Red for headings.

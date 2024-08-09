@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor of Vocational Software Development and System Administration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-header {
+            margin-bottom: 1.5rem;
+            text-align: center;
+            flex: 1 1 100%;
+        }
+
+        .section-header h2 {
+            font-size: 2rem;
+            color: #015BA1;
+            margin: 0;
+            font-weight: 600;
+            position: relative;
+        }
+
+        .section-header h2::after {
+            content: "";
+            width: 50px;
+            height: 4px;
+            background-color: #015BA1;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-content {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.8;
+            display: flex;
+            align-items: center;
+            flex: 1 1 100%;
+        }
+
+        .section-content img {
+            flex: 0 0 40%;
+            width: 40%;
+            height: auto;
+            border-radius: 0.5rem;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-right: 2rem;
+        }
+
+        .section-content p, .section-content ul {
+            flex: 1 1 60%;
+            margin: 0;
+        }
+
+        .section-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section-content ul li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .section-content ul li::before {
+            content: "\f058";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            color: #015BA1;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+
+        @media (max-width: 767px) {
+            .section {
+                padding: 1rem;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .section-content {
+                flex-direction: column;
+            }
+
+            .section-content img {
+                width: 50%;
+                margin: 0 0 1rem 0;
+            }
+
+            .section-content p, .section-content ul {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 575px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .section-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .section-content {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+    
+    <main>
+        <section id="department-profile" class="section">
+            
+            <div class="section-content">
+                <p>
+                    The Bachelor of Vocational Software Development and System Administration program is designed to provide 
+                    students with the necessary skills and knowledge to pursue a career in software development and system 
+                    administration. The program emphasizes hands-on learning and practical experience, preparing graduates 
+                    to meet the demands of the rapidly evolving technology industry.
+                </p>
+            </div>
+        </section>
+
+        <section id="mission" class="section">
+            <div class="section-header">
+                <h2>Mission</h2>
+            </div>
+            <div class="section-content">
+                <img src="images/mission.jpeg" alt="Mission Image">
+                <p>
+                    Our mission is to equip students with a comprehensive education in software development and system 
+                    administration, fostering innovation, critical thinking, and problem-solving skills. We aim to create 
+                    professionals who are ready to excel in the dynamic and competitive field of technology.
+                </p>
+            </div>
+        </section>
+
+        <section id="vision" class="section">
+            <div class="section-header">
+                <h2>Vision</h2>
+            </div>
+            <div class="section-content">
+                <img src="images/vision.jpeg" alt="Vision Image">
+                <p>
+                    To be a leading department that offers top-notch education in software development and system 
+                    administration, producing graduates who are well-prepared to contribute to and lead in the global 
+                    technology landscape.
+                </p>
+            </div>
+        </section>
+
+        <section id="objective" class="section">
+            <div class="section-header">
+                <h2>Objective</h2>
+            </div>
+            <div class="section-content">
+                <img src="images/objective.jpeg" alt="Objective Image">
+                <p>
+                    The objective of the Bachelor of Vocational Software Development and System Administration program is to 
+                    provide students with a solid foundation in software engineering principles, system administration 
+                    techniques, and real-world application development. We aim to develop professionals who are capable of 
+                    designing, implementing, and managing complex software systems.
+                </p>
+            </div>
+        </section>
+
+        <section id="programme-outcomes" class="section">
+            <div class="section-header">
+                <h2>Programme Outcomes</h2>
+            </div>
+            <div class="section-content">
+                <ul>
+                    <li>Gain proficiency in various programming languages and software development tools.</li>
+                    <li>Develop skills in system administration, including the management of servers and networks.</li>
+                    <li>Understand the principles of software engineering and project management.</li>
+                    <li>Acquire hands-on experience through internships and industry projects.</li>
+                    <li>Enhance problem-solving and analytical thinking abilities.</li>
+                    <li>Prepare for successful careers in software development and system administration.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
